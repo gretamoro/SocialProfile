@@ -9,7 +9,7 @@ ul {
 
 li {
     float: right;
-} 
+}
 
 li a {
     display: block;
@@ -23,19 +23,43 @@ li a:hover {
     background-color: hotpink;
 }
 
-.logos {
-	text-align: right;
-	margin-right: 36px;
-	
+.intro {
+  background-color: #c6c2b5;
 }
 
-.icono {
-	width: 36px;
-	height: 36px;
-	display: inline-block;
+.socialmedia img {
+  width: 36px;
+  height: 36px;
+  text-align: right;
 }
 
-div.icono img {
-	height: 36px;
-	width: 36px;
+.banner {
+  background-color: #c6c2b5;
+}
+
+.container-inventos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.inventos {
+  background-color: #c6c2b5;
+  width: 40%;
+}
+
+.inv {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #c6c2b5;
+}
+
+.iconos img {
+  width: 36px;
+  height: 36px;
 }

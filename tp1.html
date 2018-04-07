@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="tp2.css">
-	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="tp1.css">
+	<title>Bulma Brief</title>
 </head>
 <body>
 	<nav>
+		<div class="logo">
+			<img src="assets/logo.svg" alt="logo de capsule corp">
+		</div>
 		<!--listado de navegacion-->
 		<ul class="menu">
 			<li><a href="#">Contactos</a></li>
@@ -18,14 +21,50 @@
 		</ul>
 	</nav>
 
-	<div class="logos">
-		<div class="icono" id="github">
-			<img src="/home/pc/Descargas/images (1).png">
-		</div>
-		<div class="icono" id="linkedin">
-			<img src="/home/pc/Descargas/descarga.png">
+		<!--hay que bajar lo iconos,pero no me sale tampoco jaja-->
+
+		<!--Acá iría la parte de quién soy y los íconos (por eso saqué una parte de lo que escribiste Gise, perdón) etc. ¿Está bien usar section?-->
+
+		<section class="intro">
+			<img src="assets/bulma.png" alt="foto de bulma">
+			Quién soy
+			<div class="socialmedia">
+				<img src="assets/github.svg" alt="logo de github">
+				<img src="assets/linkedin.svg" alt="logo de linkedin">
+			</div>
+		</section>
+
+		<!--Acá viene el banner-->
+
+		<div class="banner">
+
 		</div>
 
-		<!--hay que bajar lo iconos,pero no me sale tampoco jaja-->
+		<!--Tres cajas para los artículos-->
+		<section class="container-inventos">
+			<article class="inventos">
+			<img class ="inv" src="assets/Radar.png" alt="">
+
+			</article>
+
+			<article class="inventos">
+			<img class ="inv" src="assets/ScouterPinkNV.png" alt="">
+
+			</article>
+
+			<article class="inventos">
+			<img class="inv" src="assets/timemachine.png" alt="">
+
+			</article>
+		</section>
+
+		<footer>
+			<a href="mailto:bulma@capsulecorp.io?subject=hola">bulma@capsulecorp.io</a>
+			<div class="iconos">
+				<img src="assets/facebook.svg" alt="">
+				<img src="assets/twitter.svg" alt="">
+				<img src="assets/medium.svg" alt="">
+			</div>
+		</footer>
 </body>
 </html>
