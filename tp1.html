@@ -2,39 +2,37 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="tp1.css">
 	<title>Bulma Brief</title>
+	<link rel="stylesheet" type="text/css" href="tp1.css">
 </head>
 <body>
 	<nav>
 		<div class="logo">
-			<img src="assets/logo.svg" alt="logo de capsule corp">
+			<h1><img src="assets/logo.svg" alt="logo de capsule corp"></h1>
 		</div>
 		<!--listado de navegacion-->
 		<ul class="menu">
-			<li><a href="#">Contactos</a></li>
-			<li><a href="#">Servicios</a></li>
-			<li><a href="#">Quén soy</a></li>
 			<li><a href="#">Home</a></li>
+			<li><a href="#quiensoy">Quén soy</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">Contacto</a></li>
 			<!--no me sale para que el menu no me ocupe todo el ancho,dejarle margen-->
-
 		</ul>
 	</nav>
 
 		<!--hay que bajar lo iconos,pero no me sale tampoco jaja-->
 
-		<!--Acá iría la parte de quién soy y los íconos (por eso saqué una parte de lo que escribiste Gise, perdón) etc. ¿Está bien usar section?-->
+		<!--Acá iría la parte de quién soy y los íconos
+		(por eso saqué una parte de lo que escribiste Gise, perdón) etc.
+		¿Está bien usar section? //sí, está bien!-->
 
-		<section class="intro">
-			<img src="/home/pc/Descargas/bulmafoto.jpg" alt="foto de bulma">Bulma Brief 
+		<section id="quiensoy" class="intro">
+			<img src="assets/bulmafoto.jpg" alt="foto de bulma"/>Bulma Brief
 			<div class="socialmedia">
 				<img src="assets/github.svg" alt="logo de github">
 				<img src="assets/linkedin.svg" alt="logo de linkedin">
 			</div>
 		</section>
-
-
-
 
 		<!--Acá viene el banner-->
 
@@ -46,26 +44,23 @@
 		<section class="container-inventos">
 			<article class="inventos">
 			<img class ="inv" src="assets/Radar.png" alt="">
-
 			</article>
 
 			<article class="inventos">
 			<img class ="inv" src="assets/ScouterPinkNV.png" alt="">
-
 			</article>
 
 			<article class="inventos">
 			<img class="inv" src="assets/timemachine.png" alt="">
-
 			</article>
 		</section>
 
 		<footer>
 			<a href="mailto:bulma@capsulecorp.io?subject=hola">bulma@capsulecorp.io</a>
 			<div class="iconos">
-				<img src="assets/facebook.svg" alt="">
-				<img src="assets/twitter.svg" alt="">
-				<img src="assets/medium.svg" alt="">
+				<a href="#"><img src="assets/facebook.svg" alt=""></a>
+				<a href="#"><img src="assets/twitter.svg" alt=""></a>
+				<a href="#"><img src="assets/medium.svg" alt=""></a>
 			</div>
 		</footer>
 </body>
