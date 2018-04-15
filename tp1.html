@@ -4,35 +4,34 @@
 	<meta charset="UTF-8">
 	<title>Bulma Brief</title>
 	<link rel="stylesheet" type="text/css" href="tp1.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-	<nav>
+	<header class="header-container">
 		<div class="logo">
-			<h1><img src="assets/logo.svg" alt="logo de capsule corp"></h1>
+			<h1><img src="assets/ccorp.png" alt="logo de capsule corp"></h1>
 		</div>
-		<!--listado de navegacion-->
-		<ul class="menu">
-			<li><a href="#">Home</a></li>
-			<li><a href="#quiensoy">Quén soy</a></li>
-			<li><a href="#">Servicios</a></li>
-			<li><a href="#">Contacto</a></li>
-			<!--no me sale para que el menu no me ocupe todo el ancho,dejarle margen-->
-		</ul>
-	</nav>
+	  <nav>
+      <ul class="menu">
+			  <li><a href="#">Home</a></li>
+			  <li><a href="#quiensoy">Quién soy</a></li>
+			  <li><a href="#">Servicios</a></li>
+			  <li><a href="#">Contacto</a></li>
+		  </ul>
+	  </nav>
+	</header>
 
-		<!--hay que bajar lo iconos,pero no me sale tampoco jaja-->
-
-		<!--Acá iría la parte de quién soy y los íconos
-		(por eso saqué una parte de lo que escribiste Gise, perdón) etc.
-		¿Está bien usar section? //sí, está bien!-->
-
-		<section id="quiensoy" class="intro">
-			<img src="assets/bulmafoto.jpg" alt="foto de bulma"/>Bulma Brief
-			<div class="socialmedia">
-				<img src="assets/github.svg" alt="logo de github">
-				<img src="assets/linkedin.svg" alt="logo de linkedin">
-			</div>
-		</section>
+	<section id="quiensoy" class="intro">
+		<div class="imgintro">
+			<img src="assets/bulmafoto.jpg" alt="foto de bulma"/>
+		</div>
+		<div class="description">Bulma Brief
+		</div>
+		<div class="socialmedia">
+			<img src="assets/github.svg" alt="logo de github">
+			<img src="assets/linkedin.svg" alt="logo de linkedin">
+		</div>
+	</section>
 
 		<!--Acá viene el banner-->
 
@@ -43,15 +42,21 @@
 		<!--Tres cajas para los artículos-->
 		<section class="container-inventos">
 			<article class="inventos">
-			<img class ="inv" src="assets/Radar.png" alt="">
+			  <img class ="inv" src="assets/Radar.png" alt="">
+				<p class="texto">Inventé el Radar Dragón cuando tenía solo 16 años. Su función era encontrar todas las bolas del dragón para poder cumplir todos mis sueños con magia (en vez de ciencia).
+				</p>
 			</article>
 
 			<article class="inventos">
-			<img class ="inv" src="assets/ScouterPinkNV.png" alt="">
+			  <img class ="inv" src="assets/ScouterPinkNV.png" alt="">
+				<p class="texto">El "Scouter" es la prueba de que en Capsule Corp tenemos la tecnología y los conocimientos necesarios para replicar tecnología alienígena.
+				</p>
 			</article>
 
 			<article class="inventos">
-			<img class="inv" src="assets/timemachine.png" alt="">
+			  <img class="inv" src="assets/timemachine.png" alt="">
+				<p class="texto">La máquina de viajar en el tiempo es mi invento más ambicioso. En Capsule Corp estamos aceptando voluntarios para probarla.
+				</p>
 			</article>
 		</section>
 
