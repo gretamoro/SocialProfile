@@ -1,4 +1,8 @@
 /*RESET*/
+
+
+
+
 a {
   text-decoration: none;
   color: white;
@@ -58,21 +62,36 @@ li a:hover {
   justify-content: space-between;
 }
 
+.intro h1 {
+font-size : 1cm;
+}
+
+
 .intro img {
   width: 100px;
   height: 100px;
+  margin-top: 4px;
 }
 
 .socialmedia img {
   width: 36px;
   height: 36px;
   text-align: right;
+  margin-top: 4px;
 }
 
 .banner {
   background-color: #c6c2b5;
   width: 1480px;
+  height:340px;
+  
+}
+
+.banner img {
+  width: 1480px;
   height: 340px;
+
+  
 }
 
 .container-inventos {
@@ -82,6 +101,7 @@ li a:hover {
   display: flex;
   justify-content: space-between;
   flex: 1;
+  margin-top: 4px;
 }
 
 .inventos {
@@ -89,29 +109,34 @@ li a:hover {
   flex-direction: row;
   flex: 1;
   font-size: 0.9em;
+  margin-top: -4px;
 }
 
 p {
   padding: 5px;
   text-align: justify;
   overflow: auto;
+  margin-top: 4px;
 }
 
 .inv {
   width: 150px;
   height: 150px;
   object-fit: cover;
+  margin-top: 4px;
 }
 
 footer {
   background-color: #333333;
   display: flex;
   justify-content: space-between;
+  margin-top: 4px;
 }
 
 .iconos img {
   width: 36px;
   height: 36px;
+  margin-top: 4px;
 }
 
 @media only screen and (max-width: 768px) {
